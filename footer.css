@@ -1,0 +1,10 @@
+footer{
+    background-color:         rgb(20, 20, 20);
+    display:        flex;
+        justify-content:        center;
+        align-items:            center;
+    color: aliceblue;
+
+    min-height:         40vh;
+    width:              100%;
+}
