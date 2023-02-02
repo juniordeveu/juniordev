@@ -12,6 +12,7 @@
 .fa-burger{
     animation:  iconHamAnim 2s forwards linear;
     color: orangered;
+    cursor: pointer;
     font-size: 2rem;
     margin: 0 0 1rem 0;
 }
@@ -39,6 +40,14 @@
         transform: translateY(0rem);
     }
 
+}
+.fa-burger:hover{
+    animation:      clickHambAnim 1s forwards;
+}
+@keyframes clickHambAnim {
+    0%{
+       color:     rgb(255, 8, 0);
+    }
 }
 
 /* media */

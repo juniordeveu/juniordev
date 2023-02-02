@@ -116,6 +116,9 @@
 .fa-circle-xmark{
     color:      rgb(0, 0, 0);
 }
+.node ,.postgresql{
+    color: rgb(255, 195, 65);
+}
 /* end main set */
 
 /* set detail box */
@@ -156,17 +159,38 @@
     margin:         2rem 0 0 0;
 }
 .footer__tel{
-    cursor: pointer;
+    cursor:         pointer;
+    padding: .1rem;
     overflow:       hidden;
     transition:     1s ease;
     white-space:    nowrap;
     width:          10%;
 
 }
+.fa-phone-volume:hover{
+    animation: animIconTel 2s infinite;
+    
+}
+@keyframes animIconTel {
+    0%{
+        color: aliceblue;
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.1); 
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        color: rgb(255, 88, 88);
+        transform: scale(1.1);
+    }
+}
 .footer__tel--nr{
 margin:             0 0 0 .2rem;
 }
 .footer__tel:hover{
-width:      50%;
+width:      100%;
 }
 /* end detail box */
