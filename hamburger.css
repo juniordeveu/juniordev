@@ -2,14 +2,18 @@
 
 
 .hamburgerNav{
-    display: block;
+
     max-width: 10rem;
+    position: absolute;
     width: 100%;
+    
     z-index: 900;
+
 }
 
 .hamburgerNav label , #hamburger{
     display: none;
+    
 
 }
 .fa-burger{
@@ -56,7 +60,7 @@
 /* media */
 @media all and (min-width: 0px) and (max-width: 1200px){
     .hamburgerNav label{
-        display: inline;
+        display: block;
         max-width: 1rem;
     }
     .hamburger-items{

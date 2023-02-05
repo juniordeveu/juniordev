@@ -15,25 +15,19 @@ font-family: 'Unbounded', cursive;
     overflow:           hidden;
     position:           relative;
     width:              100%;
-
 }
-
 .navbar{
-    display:           flex;
-        flex-flow:          row wrap;
-        justify-content:    space-between;
-    position:   absolute;
-        top:        0px;
-        left:       0px;
+    display: flex;
+    justify-content: end;
     padding:    2rem 5rem;
     width:      100%;
 }
 .navbar__logo{
-    
     display:    flex;
-    animation: logoAnim 1s forwards linear;
-    font-size: 3vw;
+    animation:      logoAnim 1s forwards linear;
+    font-size:      3vw;
     letter-spacing: 1rem;
+    width:          100%;
 }
 @keyframes logoAnim {
     0%{
@@ -96,7 +90,7 @@ font-family: 'Unbounded', cursive;
         justify-content:    start;
         align-items:        center;
     text-align:     justify;
-    padding:        1rem;
+    padding:        1rem 0 0 0  ;
     width:          50%;
    
     
@@ -135,6 +129,7 @@ font-family: 'Unbounded', cursive;
 .box-left__content--h1 span {
     color:          orangered;
     font-size:      4rem;
+    font-family:    'Unbounded', cursive;
 }
 .box-left__content--p{
     animation:      pAnim 1s forwards;
@@ -220,18 +215,19 @@ media
 */
 
 @media all and (min-width: 0px) and (max-width: 1200px){
+   
     .navbar{
+        justify-content: start;
         padding:    2rem 2rem;
     }
     .large{
         height:           auto;  
-  
     }
     .largeBox{
                 flex-flow:      column wrap;
                 -ms-flex-flow:  column wrap;
-                margin:         2rem;
-                padding:        1rem;
+                margin:         3rem 0 0 0;
+                padding:        .5rem;
     }
     .box-left{
         height: 45%;
