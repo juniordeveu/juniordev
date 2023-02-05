@@ -2,12 +2,15 @@
 
 
 .hamburgerNav{
+    display: block;
     max-width: 10rem;
     width: 100%;
+    z-index: 900;
 }
 
 .hamburgerNav label , #hamburger{
     display: none;
+
 }
 .fa-burger{
     animation:  iconHamAnim 2s forwards linear;
