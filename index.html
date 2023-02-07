@@ -19,40 +19,35 @@
     
     <meta name="view-transition" content="same-origin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Indywidualne projektowanie stron internetowych. Krotki czas realizacji. Pomagamy przy pierwszym uruchomieniu strony.">
 
-    <link rel="preload" href="./plans.css" as="style">
-    <link rel="preload" href="./description.css" as="style">
-    <link rel="preload" href="./header.css" as="style">
-    <link rel="preload" href="./header.css" as="style">
-    <link rel="preload" href="./footer.css" as="style">
-    <link rel="preload" href="./hamburger.css" as="style">
-    <link rel="preload" href="./iconsAnim.css" as="style">
-    <link rel="preload" href="./faq.css" as="style">
+
+    <link rel="preload" href="./header.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./hamburger.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./iconsAnim.css" as="style" onload="this.rel='stylesheet'">
+
 
 
     <link rel="stylesheet" href="./plans.css">
-    <link rel="stylesheet" href="./iconsAnim.css">
     <link rel="stylesheet" href="./description.css">
-    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./hamburger.css">
     <link rel="stylesheet" href="./faq.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Michroma&family=Paytone+One&family=Quattrocento+Sans&family=Saira+Condensed:wght@100&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Juniordev.eu</title>
+        crossorigin="anonymous" referrerpolicy="no-referrer"  />
+    <title>Juniordev.eu projektowanie stron internetowych</title>
 </head>
 <body>
     <header class="container__header">
             <nav>   
                 <div class="navbar">   
                     <div class="navbar__logo">
-                        <p class="navbar__logo logoTxt">juniordev.eu</p>
+                        <h1 class="navbar__logo logoTxt">juniordev.eu</h1>
                     </div>
                     <ul class="navbar__list hamburgerNav">
                         <label for="hamburger"><i class="fa-solid fa-burger"></i></label>
@@ -258,43 +253,46 @@
     </section>
     <!-- FAQ -->
     <article class="faq-article">
+        <p>in the creation stage. We apologize</p>
         <h1 class="boxInfo-h1"> FAQ </h1>
         <section class="faq-section">
             <div class="faq-box-left">
                 <div class="box-collasible">
                     <p class="box-collasible-p">
-                        coming soon :)
+                        Co to oznacza że witryna jest RWD
                     </p>
                     <i class="arrow" id="arrowID"></i>
                     <div class="collasible-content">
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
+                        To strona internetowa zaprojektowana w taki sposób, 
+                        że może dostosowywać się do rozdzielczości ekranu 
+                        dowolnych urządzeń stacjonarnych i mobilnych.
+                        Zapewnia użytkownikowi przyjemne i funkcjonalne 
+                        korzystanie bez względu na to, z jakiego 
+                        <hr class="collasible-hr">
+                        Każda nasza strona jest RWD.
                     </div>
                 </div>
                 <div class="box-collasible">
                     <p class="box-collasible-p">
-                        coming soon :)
+                        Jak długo trwa realizacja projektu 
                     </p>
                     <i class="arrow" id="arrowID"></i>
                     <div class="collasible-content">
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
+                        Każdy projekt jest indywidualny, z tego względu ciężko jest określić dokładny czas realizacji.
+                        W przypadku prostej strony One Page, termin realizacji witryny wynosi od dwóch do czterech dni. 
+                        W tym konsultacje ewentulane poprawki itd. 
                     </div>
                 </div>
                 <div class="box-collasible">
                     <p class="box-collasible-p">
-                        coming soon :)
+                        Co potrzebujemy, by zacząć pracę?
                     </p>
                     <i class="arrow" id="arrowID"></i>
                     <div class="collasible-content">
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
+                        Do zaczęcia pracy nad stroną potrzebujemy materiałów (podczas rozmowy 
+                        z klientem uzgadniamy jakie materiały będą niezbędne, grafika, teksty ), 
+                        które będą umieszczone na stronie internetowe.
+                
                     </div>
                 </div>
                 <div class="box-collasible">
@@ -352,14 +350,13 @@
                 </div>
                 <div class="box-collasible">
                     <p class="box-collasible-p">
-                        coming soon :)
+                        Co zrobić, jeśli nie mam jeszcze hostingu?
                     </p>
                     <i class="arrow" id="arrowID"></i>
                     <div class="collasible-content">
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
+                        Serwer WWW  to przestrzeń na stronę, która jest niezbędna, aby można było opublikować witrynę w sieci. 
+                        Jeśli jeszcze go nie posiadasz, pomożemy wybrać najlepsze rozwiązanie dla twoich potrzeb.
+
                     </div>
                 </div>
             </div>
